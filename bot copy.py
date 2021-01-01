@@ -13,17 +13,13 @@ async def on_message(message):
 
     # dialogues
     if message.content.startswith('salut'):
-        msg = 'Hello {0.author.mention}'.format(message)
         await message.author.send('👋')
         await message.channel.send("salut")
     if message.content.startswith('fdp'):
-        msg = 'Hello {0.author.mention}'.format(message)
         await message.channel.send("parle mieux où je t'éjectes !")
     if message.content.startswith('Alz'):
-        msg = 'Hello {0.author.mention}'.format(message)
         await message.channel.send("voilà soumets-toi")
     if message.content.startswith('sur fortnite'):
-        msg = 'Hello {0.author.mention}'.format(message)
         await message.channel.send("warzone est mieux")
     
 
